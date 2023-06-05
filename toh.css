@@ -1,0 +1,189 @@
+body {
+  background-color: #5858da;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  align-content: center;
+}
+
+#title {
+  text-align: center;
+  color: #d61912;
+}
+.developer{
+  padding: 2px;
+    /* width: 5px;   */
+    /* height: 150px; */
+    background: #aba5a3;
+    /* border-radius: 180px; */
+    
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  color: #0d090c;
+  font-family: Lato;
+}
+.moves {
+  font-family: Lato;
+  text-align: center;
+  font-size: 23px;
+  color:#ffb663;
+}
+#towers {
+  color: #710909;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:space-around;
+}
+.base {
+  position: relative;
+  width: 180px;
+  height: 200px;
+  margin: auto;
+  border-bottom: 9px #421b1b solid;
+  border-radius: 20px;
+}
+.line1{
+    padding: 2px;
+    width: 5px;
+    height: 150px;
+    background: #7e9452;
+    /* border-radius: 180px; */
+    padding-top: 50px;
+    margin: 10px 0 0 65px;
+    position: relative;
+    align-items: center;
+  }
+.line2{
+  padding: 2px;
+  width: 5px;
+  height: 150px;
+  background: #7e9452;
+  /* border-radius: 180px; */
+  padding-top: 50px;
+  margin: 10px 0 0 65px;
+  position: relative;
+  align-items: center;
+}
+.line3 {
+  padding: 2px;
+  width: 5px;
+  height: 150px;
+  background: #7e9452;
+  /* border-radius: 180px; */
+  padding-top: 50px;
+  margin: 10px 0 0 65px;
+  position: relative;
+  align-items: center;
+}
+#towers li {
+  position: relative;
+  display: block;
+  height: 20px;
+  border-radius: 10px;
+  top: 170px;
+}
+#disc7 {
+  background-color: #8300ff;
+  width: 170px;
+  position: fixed;
+  margin:auto;
+  margin-left: -80px;
+  margin-top: -30px;
+}
+#disc6 {
+  background-color: #8668e8;
+  width: 150px;
+  position: fixed;
+  margin:auto;
+  margin-left: -69px;
+  margin-top: -40px;
+}
+#disc5 {
+  background-color: #91acff;
+  width: 125px;
+  position: fixed;
+  margin:auto;
+  margin-left: -60px;
+  margin-top: -40px;
+}
+#disc4 {
+  background-color: #acefb7;
+  width: 100px;
+  position: fixed;
+  margin:auto;
+  margin-left: -50px;
+  margin-top: -40px;
+}
+#disc3 {
+  background-color: #fbff9b;
+  width: 75px;
+  position: fixed;
+  margin:auto;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+#disc2 {
+  background-color: #ffb663;
+  width: 50px;
+  position: fixed;
+  margin:auto;
+  margin-left: -30px;
+  margin-top: -40px;
+}
+#disc1 {
+  background-color: #ffa8a8;
+  width: 25px;
+  position: fixed;
+  margin:auto;
+  margin-left: -20px;
+  margin-top: -40px;
+  margin-right: -70px;
+}
+
+.buttons {
+  font-family: Lato;
+  font-size: 15px;
+  text-transform: uppercase;
+  height: 50px;
+  width: 90px;
+  border-radius: 15px;
+  background-color: #515ca3;
+  color: #ffffff;
+  opacity: 0.7;
+}
+#discno {
+  font-family: Lato;
+  font-size: 20px;
+  color: #141214;
+  margin: auto;
+}
+#box {
+  text-size: 30px;
+  text-align: center;
+  height: 20px;
+  width: 50px;
+  font-family: Lato;
+}
+#restart {
+  margin: auto;
+}
+/*
+#solve{
+  margin: auto;
+}
+*/
+.buttons:hover {
+  margin: auto;
+  opacity: 2;
+}
+.Clue Section{
+  margin:auto
+}
